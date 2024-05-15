@@ -7,6 +7,8 @@
 
 - 🔞 **23** years old.
 
+- [![](https://visitcount.itsvg.in/api?id=christopher&label=Profile%20Views&color=11&icon=9&pretty=true)](https://visitcount.itsvg.in)
+
 <h3 align="left">Languages:</h3>
 <a href="https://www.java.com" target="_blank"> <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"
