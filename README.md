@@ -1,7 +1,7 @@
 <h1 align="center">im Christopher 👋</h1>
 <h3 align="center">Working From Italy 🏠</h3>
 
-- 🤓 I’m currently working with **C & Angular Development**
+- 🤓 I’m currently working with **Java & C++**
 
 - 📧 Where you can contact me? **@LWJGL3 (Telegram)**
 
