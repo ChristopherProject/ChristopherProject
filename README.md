@@ -7,7 +7,7 @@
 
 - 🔞 **24** years old.
 
-<h3 align="left">Languages:</h3>
+<h3 align="left">Languages Knowed:</h3>
 <a href="https://www.java.com" target="_blank"> <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"
         width="40" height="40" /> </a>
@@ -42,7 +42,18 @@
         <a href="https://angular.io/" target="_blank"> <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg"
         alt="angular" width="40" height="40" /> </a>
-<h3 align="left">Statics:</h3>
+<h3 align="left">My GitHub Stats:</h3>
 <img src="https://github-readme-stats.vercel.app/api?username=ChristopherProject&theme=dark" />
+
+
+  <h3 align="left" >Spotify Current Playing:</h3>  
+  <img 
+    src="https://spotify-github-profile.kittinanx.com/api/view?uid=31qsro4q3hmew4cqrmgsrd4dapky&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile" 
+    alt="Spotify Now Playing" 
+    width="40%" 
+    style="background-color: black;" 
+          align="left"
+  />
+
 
 <br><br><br>
