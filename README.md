@@ -3,7 +3,8 @@
 
 - 🤓 I’m currently working with **Java & C++**
 
-- 📧 Where you can contact me? **@LWJGL3 (Telegram)**
+- 📧 Where you can contact me? <a align="left" href="https://t.me/LWJGL3" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="elhadjxx" height="30" width="40" /></a>
+<a align="left" href="https://discord.com/users/1354872458242687291" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/refs/heads/master/src/images/icons/Social/discord.svg" alt="elhadjx" height="30" width="40" /></a>
 
 - 🔞 **24** years old.
 
@@ -42,18 +43,12 @@
         <a href="https://angular.io/" target="_blank"> <img
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg"
         alt="angular" width="40" height="40" /> </a>
+        
 <h3 align="left">My GitHub Stats:</h3>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ChristopherProject&show_icons=true&theme=dark&title_color=ffffff&text_color=ffffff&locale=en&layout=compact" alt="ChristopherProject" /></p>
 <img src="https://github-readme-stats.vercel.app/api?username=ChristopherProject&theme=dark" />
 
-
-  <h3 align="left" >Spotify Current Playing:</h3>  
-  <img 
-    src="https://spotify-github-profile.kittinanx.com/api/view?uid=31qsro4q3hmew4cqrmgsrd4dapky&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile" 
-    alt="Spotify Now Playing" 
-    width="40%" 
-    style="background-color: black;" 
-          align="left"
-  />
-
+</p>
 
 <br><br><br>
