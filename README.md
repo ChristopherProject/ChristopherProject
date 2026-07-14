@@ -68,7 +68,7 @@ A Spring Boot 3 backend for a Telegram/WhatsApp-style messenger with an Instagra
 
 `Java` `Spring Boot 3` `MongoDB` `WebSocket` `WebRTC`
 
-### [Minecraft 1.8.9 → LWJGL 3 Port](https://github.com/ChristopherProject/minecraft-1.8.9-lwjgl3)
+### [Minecraft 1.8.9 → LWJGL 3 Port](https://github.com/yapeteam/minecraft-1.8.9-lwjgl3)
 A collaborative port of Minecraft 1.8.9's rendering backend from the legacy LWJGL 2 to LWJGL 3, replacing the OpenGL context and windowing layer while keeping the game logic intact. Built with a collaborator, on top of prior work from the GTNewHorizons and MCLWJGL3 communities.
 
 `Java` `LWJGL 3` `OpenGL`
