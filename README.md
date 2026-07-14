@@ -52,7 +52,7 @@ Day to day, I work on enterprise Java/Spring systems — legacy codebase moderni
   <img src="https://skillicons.dev/icons?i=git,linux,python,vim&perline=6&theme=dark" alt="Git, Linux, Python, Vim" height="55"/>
 </p>
 
-*Systems-level focus: JNA & native memory manipulation, bytecode analysis, reverse engineering, graph databases, local LLM inference (llama.cpp, ONNX).*
+*Systems-level focus: JNA & native memory manipulation, bytecode analysis, reverse engineering.*
 
 <br/>
 
