@@ -1,123 +1,97 @@
-<!-- ====== HEADER WAVE ====== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Christopher&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Working%20From%20Italy%20%F0%9F%87%AE%F0%9F%87%B9&descAlignY=58&descSize=18" width="100%" alt="header"/>
+<!-- ====== HEADER ====== -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:0f3460&height=200&section=header&text=Christopher&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Working%20From%20Italy%20%F0%9F%87%AE%F0%9F%87%B9&descAlignY=65&descSize=16" width="100%" alt="header"/>
 
-<!-- ====== TYPING ANIMATION ====== -->
 <div align="center">
-  
+
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&width=600&lines=Java+%26+C%2FC%2B%2B+Developer;Always+learning+something+new+%F0%9F%9A%80;Open+to+collaborate+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4A6FA5&center=true&vCenter=true&width=600&lines=Senior+Java+Developer+(11%2B+years);JVM+Internals+%26+Systems+Programming;Open+to+full-remote+opportunities" alt="Typing SVG" />
   </a>
 
-  <br/>
+  <br/><br/>
 
-  <!-- Profile views counter -->
-  <img src="https://komarev.com/ghpvc/?username=ChristopherProject&label=Profile%20views&color=8E2DE2&style=flat-square" alt="profile views" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/ChristopherProject?label=Followers&style=flat-square&color=8E2DE2" alt="followers" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Age-25-8E2DE2?style=flat-square" alt="age" />
-
-</div>
-
-<br/>
-
-<!-- ====== ABOUT ME ====== -->
-<h2 align="center">🧑‍💻 About Me</h2>
-
-<table align="center">
-  <tr>
-    <td>
-
-- 🤓 Currently working with **Java** & **C / C++**
-- 🌱 Always exploring new tech and frameworks
-- 💬 Ask me about **backend**, **systems programming** or **game dev**
-- 🎯 Goal: build cool things and contribute to open source
-- ⚡ Fun fact: I code with music in the background 🎧
-
-  </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ====== CONTACT ====== -->
-<h2 align="center">📫 Get in Touch</h2>
-
-<p align="center">
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:cri.russ2000@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
   <a href="https://t.me/LWJGL3" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
   <a href="https://discord.com/users/1354872458242687291" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
+
+</div>
+
+<br/>
+
+## About Me
+
+I'm a Java developer with **11+ years of experience**, mostly self-taught. I got into programming through Minecraft modding as a teenager, and that's shaped how I approach everything since: I'd rather understand what's happening under the hood than rely on a framework to hide it from me.
+
+Over the years that's turned into a focus on **JVM internals** — memory management, class loading, bytecode — and on **systems-level programming** in Java and C/C++. I'm the kind of developer who'll spend a weekend reverse-engineering a binary protocol just to understand how it works, and I tend to gravitate toward direct, framework-light solutions over heavy abstractions.
+
+Day to day, I work on enterprise Java/Spring systems — legacy codebase modernization, framework migrations, and integration with SQL Server-backed data layers. Outside of work, I build tools that scratch a specific technical itch: memory manipulation libraries, knowledge graphs built from git history, LLM-backed tooling running on self-hosted infrastructure.
+
+**Currently open to full-remote opportunities as a Senior Java Developer.**
+
+<br/>
+
+## What I Work With
+
+**Core**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,c,cpp,spring,maven,mysql&perline=6&theme=dark" alt="Java, C, C++, Spring, Maven, MySQL" height="55"/>
+</p>
+
+**Systems & Tooling**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,linux,python,vim&perline=6&theme=dark" alt="Git, Linux, Python, Vim" height="55"/>
+</p>
+
+*Systems-level focus: JNA & native memory manipulation, bytecode analysis, reverse engineering, graph databases, local LLM inference (llama.cpp, ONNX).*
+
+<br/>
+
+## Projects
+
+### [Mem4J](https://github.com/ChristopherProject/Mem4J)
+A Java library for safe, controlled process memory manipulation via JNA. Born from the need to modify values directly in memory from Java code — an operation that would normally require dropping out of the JVM and working at a low level in C/C++. Tackles the interaction between the JVM's memory model and the native process's address space, with an API that stays usable without exposing the underlying complexity.
+
+`Java` `JNA` `Memory Management`
+
+### [Aphrodite Backend](https://github.com/ChristopherProject/Aphrodite-BackEnd)
+A Spring Boot 3 backend for a Telegram/WhatsApp-style messenger with an Instagram/Twitter-style feed layered on top. Built as a personal exercise in going deeper than the framework defaults: hand-rolled JWT auth with rotating refresh tokens and reuse detection, custom AES-CBC token envelopes, opt-in 2FA and QR passwordless login, and WebSocket signaling for WebRTC calls (offer/answer/ICE relay) written from scratch rather than pulled from a library.
+
+`Java` `Spring Boot 3` `MongoDB` `WebSocket` `WebRTC`
+
+### [Minecraft 1.8.9 → LWJGL 3 Port](https://github.com/ChristopherProject/minecraft-1.8.9-lwjgl3)
+A collaborative port of Minecraft 1.8.9's rendering backend from the legacy LWJGL 2 to LWJGL 3, replacing the OpenGL context and windowing layer while keeping the game logic intact. Built with a collaborator, on top of prior work from the GTNewHorizons and MCLWJGL3 communities.
+
+`Java` `LWJGL 3` `OpenGL`
+
+### Git History Knowledge Graph
+A tool that builds a queryable knowledge graph from a repository's git history — commits, authors, files, and branches as connected nodes — using a graph database and local embeddings for semantic search, with commit summaries generated by a locally-run LLM. Built to run fully offline, distributable to teammates without any cloud dependency.
+
+`Java` `Kùzu` `ONNX` `llama.cpp`
+
+### Self-Hosted LLM Chat Interface
+A self-hosted alternative to commercial AI chat interfaces, running entirely on my own infrastructure. PHP backend, vanilla JS frontend, llama.cpp for local inference, with token-by-token streaming and session persistence — no third-party API dependency.
+
+`PHP` `JavaScript` `llama.cpp`
+
+<br/>
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=ChristopherProject&show_icons=true&hide_border=true&title_color=4A6FA5&icon_color=4A6FA5&text_color=ffffff&bg_color=0f3460" height="170" alt="stats"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ChristopherProject&layout=compact&hide_border=true&title_color=4A6FA5&text_color=ffffff&bg_color=0f3460&langs_count=8" height="170" alt="top langs"/>
 </p>
 
 <br/>
 
-<!-- ====== TECH STACK ====== -->
-<h2 align="center">🛠️ Tech Stack</h2>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,c,cpp,cs,dotnet,js,php,html,css,angular,flutter,mysql,mongodb&perline=7" alt="skills"/>
-  </a>
-</p>
-
-<br/>
-
-<!-- ====== GITHUB STATS ====== -->
-<h2 align="center">📊 GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChristopherProject&show_icons=true&hide_border=true&title_color=8E2DE2&icon_color=8E2DE2&text_color=ffffff&bg_color=0d1117&include_all_commits=true&count_private=true" height="170" alt="stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChristopherProject&hide_border=true&background=0d1117&stroke=8E2DE2&ring=8E2DE2&fire=4A00E0&currStreakLabel=8E2DE2&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff&sideLabels=ffffff" height="170" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChristopherProject&layout=compact&hide_border=true&title_color=8E2DE2&text_color=ffffff&bg_color=0d1117&langs_count=10" height="170" alt="top langs"/>
-</p>
-
-<br/>
-
-<!-- ====== TROPHIES ====== -->
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ChristopherProject&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies"/>
-  </a>
-</p>
-
-<br/>
-
-<!-- ====== ACTIVITY GRAPH ====== -->
-<h2 align="center">📈 Contribution Activity</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChristopherProject&bg_color=0d1117&color=8E2DE2&line=4A00E0&point=ffffff&area=true&hide_border=true" alt="activity graph"/>
-</p>
-
-<br/>
-
-<!-- ====== SPOTIFY ====== -->
-<h2 align="center">🎵 Now Playing</h2>
-
-<p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31qsro4q3hmew4cqrmgsrd4dapky&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31qsro4q3hmew4cqrmgsrd4dapky&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=false&bar_color=8E2DE2&bar_color_cover=true" alt="Spotify Now Playing" />
-  </a>
-</p>
-
-<br/>
-
-<!-- ====== QUOTE ====== -->
-<h2 align="center">💭 Random Dev Quote</h2>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote"/>
-</p>
-
-<br/>
-
-<!-- ====== FOOTER WAVE ====== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f3460,100:1a1a2e&height=100&section=footer" width="100%" alt="footer"/>
