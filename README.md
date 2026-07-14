@@ -78,11 +78,6 @@ A tool that builds a queryable knowledge graph from a repository's git history �
 
 `Java` `Kùzu` `ONNX` `llama.cpp`
 
-### Self-Hosted LLM Chat Interface
-A self-hosted alternative to commercial AI chat interfaces, running entirely on my own infrastructure. PHP backend, vanilla JS frontend, llama.cpp for local inference, with token-by-token streaming and session persistence — no third-party API dependency.
-
-`PHP` `JavaScript` `llama.cpp`
-
 <br/>
 
 ## GitHub Stats
